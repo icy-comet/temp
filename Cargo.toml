@@ -1,0 +1,14 @@
+[package]
+name = "actserver"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+solana-client = "2.2.18"
+solana-sdk = "2.2.2"
+actix-web = "4"
+serde = { version = "1.0.219", features = ["derive"] }
+spl-token = "8.0.0"
+derive_more = "2.0.1"
+base64 = "0.22.1"
+serde_json = "1.0.140"
